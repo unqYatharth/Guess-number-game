@@ -1,0 +1,106 @@
+@import url(https://db.onlinewebfonts.com/c/4c19fc875e7ba1e6831129de3ab5ac0b?family=Retro+Gaming);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Retro Gaming";
+  color: whitesmoke;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  background-color: #222;
+}
+
+#nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+}
+
+#nav .between {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+
+.btn {
+  color: #222;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 12px 0px;
+  width: 130px;
+  font-size: 1.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.content h1 {
+  font-size: 5rem;
+}
+
+.content .border-line {
+  position: relative;
+  border-bottom: 10px solid #fff;
+  width: 100%;
+  padding-bottom: 15vh;
+}
+
+.content .border-line .rand-num {
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #222;
+  background-color: whitesmoke;
+  width: 120px;
+  height: 100px;
+  font-size: 5rem;
+}
+
+#game-section {
+  position: relative;
+  display: flex;
+}
+
+.game-section-left,.game-section-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 50%;
+  height: 380px;
+  gap: 2.5vh;
+}
+
+.game-section-left {
+  align-items: center;
+}
+
+.game-section-left .guess {
+  border: 2px solid whitesmoke;
+  background-color: transparent;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.game-section-right span {
+  font-size: 1.8rem;
+}
+
+
